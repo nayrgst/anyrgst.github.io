@@ -1,12 +1,17 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    display: block;
+}
 
 body{
 background-color: #e5e5e5;
+font-family: sans-serif;
 margin: 0px;
+font-weight: 500;
 overflow-x: hidden;
-display: block;
+
 } 
 
 h1 {
