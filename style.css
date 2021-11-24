@@ -5,6 +5,8 @@ html{
 body{
 background-color: #e5e5e5;
 margin: 0px;
+overflow-x: hidden;
+display: block;
 } 
 
 h1 {
