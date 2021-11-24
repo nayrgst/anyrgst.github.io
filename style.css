@@ -1,12 +1,12 @@
 html{
     scroll-behavior: smooth;
-}
-body{
     display: block;
 }
 
+
 body{
 background-color: #e5e5e5;
+display: block;
 font-family: sans-serif;
 margin: 0px;
 font-weight: 500;
@@ -42,7 +42,7 @@ h3{
     
 }
 
-h4{
+h4 {
     font-size: 35px;
     font-weight: bold;
     background-color: #172544;
@@ -50,8 +50,21 @@ h4{
     padding: 10px;
     margin: 4px;
     margin-left: 0px;
+}
+
+h4.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #fca311;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 0px;
+    text-align: center;
     
 }
+
+
 
 header{
     padding: 10px ;
@@ -59,7 +72,7 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 50px;
     justify-content:center;
     position: fixed;
 }
@@ -72,20 +85,25 @@ nav{
     min-width: 580px;
 }
 
+div {
+    display: block;
+}
+
 .principal{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 100px;
     background-color: #ffffff;
-    margin-bottom: 300px;
+    width: 100%;
+    height: 100%;
 } 
 
 .direita{
     display: flex;
     flex-direction: column;
-    height: 471px;
-    width: 470px;
+    height: 550px;
+    width: 450px;
 }
 
 .nome{
@@ -103,7 +121,7 @@ nav{
     font-style: italic;
     font-size: 25px;
     text-align: center;
-    margin: auto;
+    margin-top: 35px;
 }
 
 .esquerda{
@@ -114,8 +132,18 @@ nav{
     margin-left: 0px;
     width: 400px;
     height: 550px;
-    margin-bottom: 0%;
 }
+
+.boton:hover {
+        color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 25px 50px;
+    padding: 15px 15px; 
+    text-decoration: none;
+    background-color: #e5e5e5 ;
+    margin: 3px;
+} 
+
 
 .boton{
      color: rgb(0, 0, 0);
@@ -126,6 +154,15 @@ nav{
     background-color: #fca311;
     margin: 3px;
 } 
+
+.botão:hover{
+    color: #fca311;
+    font-size: 20px;
+    border-radius: 25px 50px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #172544;
+}
 
 .botão{
     color: rgb(0, 0, 0);
@@ -145,8 +182,38 @@ nav{
 
 }
 
+.historia {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
 
+.tudo {
+    height: 700px;
+    width: 100%;
+}
 
+.divisão {
+    background-color: #172544;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+
+.texto {
+    margin: auto;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 0 #fca311;
+    text-align: center;
+
+}
 
 
 
