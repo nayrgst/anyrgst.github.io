@@ -32,6 +32,18 @@ h3{
     border-radius: 0px 50px 30px 5px ;
     margin: 4px;
     margin-left: 0px;
+    margin-top: 6px;
+    
+}
+
+h4{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #172544;
+    color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    margin-left: 0px;
     
 }
 
@@ -58,7 +70,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 70px;
+    background-color: #ffffff;
+    margin-bottom: 200px;
 } 
 
 .direita{
@@ -83,7 +97,8 @@ nav{
     margin-right: 30px;
     margin-left: 0px;
     width: 400px;
-    height: 565px;
+    height: 550px;
+    margin-bottom: 0%;
 }
 #fonte{
 font-family: fantasy;
