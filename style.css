@@ -61,9 +61,9 @@ h4.titulo{
     margin: 0px;
     margin-left: 0px;
     text-align: center;
+    font-family: FreeMono;
     
 }
-
 
 
 header{
@@ -76,6 +76,7 @@ header{
     justify-content:center;
     position: fixed;
 }
+
 nav {
     display: block;
 }
@@ -87,6 +88,16 @@ nav{
 
 div {
     display: block;
+}
+
+footer{
+    padding: 10px ;
+    background-color: #172544;
+    display: flex;
+    align-items:flex-start;
+    height: 200px;
+    width: 100%;
+    justify-content:space-around;
 }
 
 .principal{
@@ -136,7 +147,7 @@ div {
 
 .boton:hover {
         color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 25px 50px;
     padding: 15px 15px; 
     text-decoration: none;
@@ -158,19 +169,20 @@ div {
 .botão:hover{
     color: #fca311;
     font-size: 20px;
-    border-radius: 25px 50px;
+    border-radius: 20px;
     padding: 10px;
     text-decoration: none;
-    background-color: #172544;
+    background-color: #ffffff;
 }
 
 .botão{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    border-radius: 25px 50px;
-    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
     text-decoration: none;
     background-color: #fca311;
+    margin: 5px;
 }
 
 .foto{
@@ -189,7 +201,7 @@ div {
     font-size: 22px;
     color: black;
     font-weight: 300;
-    font-family: sans-serif;
+    font-family: Chilanka, Regular;
 }
 
 .tudo {
@@ -213,6 +225,11 @@ div {
     box-shadow: 5px 5px 0 #fca311;
     text-align: center;
 
+}
+
+.lista {
+     height: 500px;
+    width: 100%;
 }
 
 
