@@ -223,7 +223,7 @@ footer{
 
 .divisão {
     background-color: #172544;
-    margin-top: 200px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     height: 700px;
